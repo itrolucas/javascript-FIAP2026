@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dados = [];
+        dados.push('A');
+        dados.push('B');
+        dados.push('C');
+    
+        for (i = 0; i < dados.lenght; i++) {
+            alert("Elemento " + (i+1) + ": " + dados[i]);
+            console.log("Elemento " + (i+1) + ": " + dados[i]);
+        }
+
+        let removido = dados.pop();
+        alert("Removido: " + removido);
+        console.log("Removido: " + removido);
+
+        for (i = 0; i < dados.length; i++) {
+            alert ("Elemento " + (i+1) + ": " + dados[1]);
+        }
+    </script>
+</body>
+</html>
